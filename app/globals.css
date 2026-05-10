@@ -55,7 +55,8 @@
 }
 
 * { box-sizing: border-box; }
-html, body { height: 100%; }
+html { height: 100%; }
+body { overflow-x: hidden; }
 body {
   margin: 0;
   background: var(--bg);
@@ -348,8 +349,8 @@ table.tbl tr:last-child td { border-bottom: 0; }
 /* ---------- breakpoint: mobile (≤640px) ---------- */
 @media (max-width: 640px) {
   .topbar { height: 56px; }
+  .topbar .input { display: none; }
   .page { padding: 16px 14px 60px; }
-  .pub-section { padding-left: 20px !important; padding-right: 20px !important; }
   .pub-grid-4 { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .pub-grid-3 { grid-template-columns: 1fr; }
   .pub-grid-6 { grid-template-columns: repeat(2, 1fr); gap: 10px; }
@@ -358,6 +359,38 @@ table.tbl tr:last-child td { border-bottom: 0; }
   .dash-grid-3 { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   table.tbl th, table.tbl td { padding: 10px 10px; }
+
+  /* hero section: tighter horizontal padding on mobile */
+  .hero-section { padding-left: 24px !important; padding-right: 24px !important; overflow: hidden; }
+
+  /* hero stats row: tighter gap, hide divider lines (positions 2 and 4) */
+  .hero-stats { gap: 12px !important; }
+  .hero-stats > div:nth-child(2), .hero-stats > div:nth-child(4) { display: none !important; }
+
+  /* hero images: hide complex collage, keep only a single image */
+  .hero-img-col { display: none; }
+
+  /* dark seller section inner box: reduce padding */
+  .dark-seller-inner { padding: 28px 20px !important; }
+  .dark-seller-inner .split-dark { gap: 24px; }
+
+  /* stats inside dark box: stacked = use top borders not left */
+  .seller-stats > div {
+    padding-left: 0 !important;
+    border-left: none !important;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
+  .seller-stats > div:first-child { padding-top: 0; border-top: none; }
+
+  /* section heading font sizes */
+  .sec-h2-lg { font-size: clamp(28px, 8vw, 44px) !important; }
+
+  /* public sections horizontal padding */
+  .pub-padx { padding-left: 20px !important; padding-right: 20px !important; }
+
+  /* Why Bazaratty image: shorter on mobile */
+  .why-img { height: 260px !important; }
 }
 
 /* ---------- breakpoint: small mobile (≤400px) ---------- */

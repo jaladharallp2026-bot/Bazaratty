@@ -1,0 +1,31 @@
+[     291ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     575ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom.development.js:29889
+[     691ms] Error: ENOENT: no such file or directory, open 'C:\Users\WIN-11\Desktop\client website\Bazaratty\.next\server\app\page.js'
+    at Object.readFileSync (node:fs:441:20)
+    at getMaybeCachedSource (node:internal/modules/cjs/loader:1588:18)
+    at Object..js (node:internal/modules/cjs/loader:1669:19)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1340:12)
+    at mod.require (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:138:16)
+    at requirePage (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\load-components.js:132:57)
+    at async DevServer.findPageComponentsImpl (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\next-server.js:900:36)
+    at async DevServer.findPageComponents (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\dev\next-dev-server.js:706:16)
+    at async DevServer.renderPageComponent (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\base-server.js:1468:24)
+    at async DevServer.renderToResponseImpl (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\base-server.js:1522:32)
+    at async DevServer.pipeImpl (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\next-server.js:394:17)
+    at async DevServer.handleRequestImpl (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\base-server.js:917:17)
+    at async (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\dev\next-dev-server.js:400:20)
+    at async Span.traceAsyncFn (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\dev\next-dev-server.js:396:24)
+    at async invokeRender (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\lib\router-server.js:240:21)
+    at async handleRequest (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\lib\router-server.js:437:24)
+    at async requestHandlerImpl (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\lib\router-server.js:485:13)
+    at async Server.requestListener (file://C:\Users\WIN-11\Desktop\client website\Bazaratty\node_modules\next\dist\server\lib\start-server.js:226:13)
+[     693ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[     704ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0

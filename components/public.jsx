@@ -161,14 +161,14 @@ export function Landing({ go }) {
         </div>
       </div>
 
-      <section style={{ padding: '96px 48px 72px', maxWidth: 1320, margin: '0 auto' }}>
+      <section className="hero-section" style={{ padding: '96px 48px 72px', maxWidth: 1320, margin: '0 auto' }}>
         <div className="hero-grid">
           <div>
             <div className="row gap-12" style={{ marginBottom: 28 }}>
               <span className="eyebrow">Independent · Curated · 2026</span>
               <span className="rule" />
             </div>
-            <h1 style={{ fontSize: 'clamp(56px, 7vw, 96px)', lineHeight: 0.96, letterSpacing: '-0.035em', fontWeight: 400 }}>
+            <h1 style={{ fontSize: 'clamp(34px, 8.5vw, 96px)', lineHeight: 0.96, letterSpacing: '-0.035em', fontWeight: 400 }}>
               The marketplace for things <span className="ital" style={{ color: 'var(--teal-600)' }}>worth keeping</span>.
             </h1>
             <p style={{ fontSize: 19, lineHeight: 1.55, color: 'var(--ink-600)', marginTop: 28, maxWidth: 480 }}>
@@ -178,7 +178,7 @@ export function Landing({ go }) {
               <button className="btn btn-primary btn-lg" onClick={() => go('market')}>Start shopping <Icon name="arrow" size={16} /></button>
               <button className="btn btn-ghost btn-lg" onClick={() => go('seller-onboarding')}>Open a store</button>
             </div>
-            <div className="row gap-32" style={{ marginTop: 44 }}>
+            <div className="row gap-32 hero-stats" style={{ marginTop: 44 }}>
               <div><div style={{ fontFamily: 'var(--display)', fontSize: 32, lineHeight: 1, color: 'var(--ink-900)' }}><Counter to={12400} suffix="+" /></div><div className="eyebrow ink" style={{ marginTop: 6 }}>Products listed</div></div>
               <div style={{ width: 1, background: 'var(--ink-200)' }} />
               <div><div style={{ fontFamily: 'var(--display)', fontSize: 32, lineHeight: 1, color: 'var(--ink-900)' }}><Counter to={847} /></div><div className="eyebrow ink" style={{ marginTop: 6 }}>Independent sellers</div></div>
@@ -186,7 +186,7 @@ export function Landing({ go }) {
               <div><div style={{ fontFamily: 'var(--display)', fontSize: 32, lineHeight: 1, color: 'var(--ink-900)' }}>4.<span className="ital">9</span></div><div className="eyebrow ink" style={{ marginTop: 6 }}>Average rating</div></div>
             </div>
           </div>
-          <div style={{ position: 'relative', height: 580 }}>
+          <div className="hero-img-col" style={{ position: 'relative', height: 580 }}>
             <div className="zoomy" style={{ position: 'absolute', top: 0, right: 0, width: '70%', height: 360, borderRadius: 24, overflow: 'hidden' }}>
               <Imagery ratio="auto" radius={24} src={D.PHOTOS.hero1} style={{ height: '100%' }} />
             </div>
@@ -234,7 +234,7 @@ export function Landing({ go }) {
           <div className="row between" style={{ alignItems: 'flex-end', marginBottom: 36 }}>
             <div>
               <div className="eyebrow" style={{ marginBottom: 14 }}>Vol. 24 — Editor's selection</div>
-              <h2 style={{ fontSize: 48, lineHeight: 1.05, letterSpacing: '-0.025em', maxWidth: 560 }}>Hand-picked <span className="ital">objects</span> for the season.</h2>
+              <h2 style={{ fontSize: 'clamp(24px, 6.5vw, 48px)', lineHeight: 1.05, letterSpacing: '-0.025em', maxWidth: 560 }}>Hand-picked <span className="ital">objects</span> for the season.</h2>
             </div>
             <button className="btn btn-ghost" onClick={() => go('market')}>View all 12,400 <Icon name="arrow" size={14} /></button>
           </div>
@@ -246,12 +246,12 @@ export function Landing({ go }) {
 
       <section style={{ padding: '96px 0', margin: '48px 0', background: 'var(--teal-50)', borderTop: '1px solid var(--teal-100)', borderBottom: '1px solid var(--teal-100)' }}>
         <div className="split-img-text" style={{ maxWidth: 1320, margin: '0 auto', padding: '0 40px' }}>
-          <div className="zoomy" style={{ borderRadius: 24, overflow: 'hidden', height: 540 }}>
+          <div className="zoomy why-img" style={{ borderRadius: 24, overflow: 'hidden', height: 540 }}>
             <Imagery ratio="auto" radius={24} src={D.PHOTOS.workshop} style={{ height: '100%' }} />
           </div>
           <div>
             <div className="eyebrow teal" style={{ marginBottom: 18 }}>Why Bazaratty</div>
-            <h2 style={{ fontSize: 56, lineHeight: 1.0, letterSpacing: '-0.03em' }}>
+            <h2 style={{ fontSize: 'clamp(26px, 7vw, 56px)', lineHeight: 1.0, letterSpacing: '-0.03em' }}>
               A marketplace that feels like a <span className="ital" style={{ color: 'var(--teal-700)' }}>great street</span> of independent shops.
             </h2>
             <p style={{ fontSize: 17, lineHeight: 1.65, color: 'var(--ink-700)', marginTop: 28, maxWidth: 520 }}>
@@ -280,7 +280,7 @@ export function Landing({ go }) {
           <div className="row between" style={{ alignItems: 'flex-end', marginBottom: 32 }}>
             <div>
               <div className="eyebrow" style={{ marginBottom: 14 }}>Browse by department</div>
-              <h2 style={{ fontSize: 44, lineHeight: 1.05, letterSpacing: '-0.025em' }}>Eight worlds, one marketplace.</h2>
+              <h2 style={{ fontSize: 'clamp(22px, 6vw, 44px)', lineHeight: 1.05, letterSpacing: '-0.025em' }}>Eight worlds, one marketplace.</h2>
             </div>
             <button className="btn btn-ghost" onClick={() => go('categories')}>All categories <Icon name="arrow" size={14} /></button>
           </div>
@@ -305,7 +305,7 @@ export function Landing({ go }) {
           <div style={{ textAlign: 'center', marginBottom: 52 }}>
             <div className="eyebrow" style={{ marginBottom: 12 }}>For sellers</div>
             <div style={{ width: 48, height: 3, background: 'var(--teal-400)', borderRadius: 99, margin: '12px auto 28px' }} />
-            <h2 style={{ fontSize: 60, lineHeight: 1.0, letterSpacing: '-0.03em', maxWidth: 800, margin: '0 auto' }}>
+            <h2 style={{ fontSize: 'clamp(28px, 7.5vw, 60px)', lineHeight: 1.0, letterSpacing: '-0.03em', maxWidth: 800, margin: '0 auto' }}>
               A storefront, an inbox, and the <span className="ital" style={{ color: 'var(--teal-600)' }}>numbers</span> that matter.
             </h2>
             <p style={{ fontSize: 17, color: 'var(--ink-600)', marginTop: 22, maxWidth: 600, margin: '22px auto 0' }}>
@@ -314,11 +314,11 @@ export function Landing({ go }) {
           </div>
         </Reveal>
         <Reveal delay={120}>
-          <div style={{ padding: '52px 56px', background: 'var(--ink-900)', color: 'white', borderRadius: 28, position: 'relative', overflow: 'hidden', border: '1px solid rgba(255,255,255,.06)' }}>
+          <div className="dark-seller-inner" style={{ background: 'var(--ink-900)', color: 'white', borderRadius: 28, position: 'relative', overflow: 'hidden', border: '1px solid rgba(255,255,255,.06)' }}>
             <div style={{ position: 'absolute', top: -140, right: -100, width: 500, height: 500, borderRadius: '50%', background: 'radial-gradient(circle, rgba(88,195,163,.28), transparent 60%)' }} />
             <div className="split-dark" style={{ position: 'relative' }}>
               <div>
-                <div className="dash-grid-3" style={{ marginBottom: 40 }}>
+                <div className="dash-grid-3 seller-stats" style={{ marginBottom: 40 }}>
                   {[
                     { v: '142',  l: 'Independent sellers', s: '+9 this week' },
                     { v: 'KD 284k', l: 'Monthly GMV',         s: '+18% this month' },
@@ -331,7 +331,7 @@ export function Landing({ go }) {
                     </div>
                   ))}
                 </div>
-                <div style={{ background: 'rgba(255,255,255,.04)', borderRadius: 14, padding: '14px 20px', border: '1px solid rgba(255,255,255,.06)' }}>
+                <div style={{ background: 'rgba(255,255,255,.04)', borderRadius: 14, padding: '14px 20px', border: '1px solid rgba(255,255,255,.06)', overflow: 'hidden' }}>
                   <div className="row between" style={{ marginBottom: 10 }}>
                     <span style={{ fontSize: 12, color: 'rgba(255,255,255,.55)' }}>Revenue trend · last 14 days</span>
                     <span className="mono" style={{ fontSize: 11, color: 'var(--teal-400)' }}>+18%</span>
@@ -356,7 +356,7 @@ export function Landing({ go }) {
       <section style={{ padding: '64px 48px', maxWidth: 1320, margin: '0 auto' }}>
         <Reveal>
           <div className="eyebrow" style={{ marginBottom: 14 }}>Sellers, in their words</div>
-          <h2 style={{ fontSize: 48, lineHeight: 1.0, letterSpacing: '-0.025em', maxWidth: 720 }}>Stories from the <span className="ital">first hundred</span>.</h2>
+          <h2 style={{ fontSize: 'clamp(24px, 6.5vw, 48px)', lineHeight: 1.0, letterSpacing: '-0.025em', maxWidth: 720 }}>Stories from the <span className="ital">first hundred</span>.</h2>
         </Reveal>
         <div className="pub-grid-3" style={{ marginTop: 40 }}>
           {[
@@ -702,7 +702,7 @@ export function AboutPage({ go }) {
       <PublicNav go={go} active="about" />
       <section style={{ padding: '64px 40px', maxWidth: 1024, margin: '0 auto' }}>
         <span className="chip teal">Our story</span>
-        <h1 style={{ fontSize: 48, lineHeight: 1.05, marginTop: 14 }}>A marketplace for the next 100 brands you'll love.</h1>
+        <h1 style={{ fontSize: 'clamp(24px, 6.5vw, 48px)', lineHeight: 1.05, marginTop: 14 }}>A marketplace for the next 100 brands you'll love.</h1>
         <p className="muted" style={{ fontSize: 17, lineHeight: 1.6, marginTop: 18, maxWidth: 720 }}>Bazaratty was built by makers, for makers. We believe a marketplace should feel like a great street of independent shops — beautiful, trustworthy, and full of personality.</p>
       </section>
       <section style={{ padding: '0 40px 48px', maxWidth: 1024, margin: '0 auto' }}>
@@ -766,7 +766,7 @@ export function PricingPage({ go }) {
       <PublicNav go={go} active="pricing" />
       <section style={{ padding: '56px 40px 16px', maxWidth: 1024, margin: '0 auto', textAlign: 'center' }}>
         <span className="chip teal">Pricing</span>
-        <h1 style={{ fontSize: 44, lineHeight: 1.05, marginTop: 14 }}>Pay only when you grow.</h1>
+        <h1 style={{ fontSize: 'clamp(22px, 6vw, 44px)', lineHeight: 1.05, marginTop: 14 }}>Pay only when you grow.</h1>
         <p className="muted" style={{ fontSize: 16, marginTop: 12, maxWidth: 600, marginLeft: 'auto', marginRight: 'auto' }}>Simple, transparent plans for sellers at every stage. Switch anytime.</p>
       </section>
       <section style={{ padding: '32px 40px 64px', maxWidth: 1080, margin: '0 auto' }}>

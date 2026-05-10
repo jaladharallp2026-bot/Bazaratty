@@ -1,0 +1,319 @@
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - alert [ref=e11]
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - img "Bazaratty" [ref=e15]
+        - generic [ref=e16]: Bazaratty
+      - button [active] [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+    - generic [ref=e385]:
+      - generic [ref=e386]:
+        - generic [ref=e387]:
+          - img "Bazaratty" [ref=e388]
+          - generic [ref=e389]: Bazaratty
+        - button [ref=e390] [cursor=pointer]:
+          - img [ref=e391]
+      - generic [ref=e393]:
+        - button "Marketplace" [ref=e394] [cursor=pointer]
+        - button "Categories" [ref=e395] [cursor=pointer]
+        - button "About" [ref=e396] [cursor=pointer]
+        - button "Pricing" [ref=e397] [cursor=pointer]
+        - button "Contact" [ref=e398] [cursor=pointer]
+      - generic [ref=e400]:
+        - button "Sign in" [ref=e401] [cursor=pointer]
+        - button "Get started" [ref=e402] [cursor=pointer]
+    - generic [ref=e23]:
+      - generic [ref=e25]: Independent · Curated · 2026
+      - heading "The marketplace for things worth keeping." [level=1] [ref=e27]
+      - paragraph [ref=e28]: Bazaratty is where independent makers meet curious buyers. Beautiful storefronts, honest reviews, fair payouts — built for the long run.
+      - generic [ref=e29]:
+        - button "Start shopping" [ref=e30] [cursor=pointer]:
+          - text: Start shopping
+          - img [ref=e31]
+        - button "Open a store" [ref=e33] [cursor=pointer]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e37]: 12,400+
+          - generic [ref=e38]: Products listed
+        - generic [ref=e39]:
+          - generic [ref=e40]: "847"
+          - generic [ref=e41]: Independent sellers
+        - generic [ref=e42]:
+          - generic [ref=e43]: "4.9"
+          - generic [ref=e44]: Average rating
+    - generic [ref=e46]:
+      - generic [ref=e47]: Featured in
+      - generic [ref=e50]:
+        - generic [ref=e51]: Maple & Oak
+        - generic [ref=e52]: Brewhaus
+        - generic [ref=e53]: Verde Apothecary
+        - generic [ref=e54]: Lumen Studio
+        - generic [ref=e55]: Stride Lab
+        - generic [ref=e56]: Keycraft
+        - generic [ref=e57]: North & Hide
+        - generic [ref=e58]: Tiny Atlas
+        - generic [ref=e59]: Common Ground
+        - generic [ref=e60]: Ledger Goods
+        - generic [ref=e61]: Maple & Oak
+        - generic [ref=e62]: Brewhaus
+        - generic [ref=e63]: Verde Apothecary
+        - generic [ref=e64]: Lumen Studio
+        - generic [ref=e65]: Stride Lab
+        - generic [ref=e66]: Keycraft
+        - generic [ref=e67]: North & Hide
+        - generic [ref=e68]: Tiny Atlas
+        - generic [ref=e69]: Common Ground
+        - generic [ref=e70]: Ledger Goods
+    - generic [ref=e71]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]: Vol. 24 — Editor's selection
+          - heading "Hand-picked objects for the season." [level=2] [ref=e76]
+        - button "View all 12,400" [ref=e77] [cursor=pointer]:
+          - text: View all 12,400
+          - img [ref=e78]
+      - generic [ref=e80]:
+        - generic [ref=e82] [cursor=pointer]:
+          - generic [ref=e83]:
+            - img "Linen weave throw pillow" [ref=e85]
+            - button "Favorite" [ref=e86]:
+              - img [ref=e87]
+            - generic [ref=e89]: Bestseller
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - generic [ref=e93]: Maple & Oak
+                - generic [ref=e94]: Linen weave throw pillow
+              - generic [ref=e95]: KD 38
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - img [ref=e98]
+                - img [ref=e100]
+                - img [ref=e102]
+                - img [ref=e104]
+                - img [ref=e106]
+              - generic [ref=e108]: 4.8 · 214
+        - generic [ref=e110] [cursor=pointer]:
+          - generic [ref=e111]:
+            - img "Ceramic pour-over kettle" [ref=e113]
+            - button "Favorite" [ref=e114]:
+              - img [ref=e115]
+            - generic [ref=e117]: New
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - generic [ref=e121]: Brewhaus
+                - generic [ref=e122]: Ceramic pour-over kettle
+              - generic [ref=e123]: KD 92
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - img [ref=e126]
+                - img [ref=e128]
+                - img [ref=e130]
+                - img [ref=e132]
+                - img [ref=e134]
+              - generic [ref=e136]: 4.9 · 142
+        - generic [ref=e138] [cursor=pointer]:
+          - generic [ref=e139]:
+            - img "Minimal leather card holder" [ref=e141]
+            - button "Favorite" [ref=e142]:
+              - img [ref=e143]
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - generic [ref=e147]:
+                - generic [ref=e148]: North & Hide
+                - generic [ref=e149]: Minimal leather card holder
+              - generic [ref=e150]: KD 46
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - img [ref=e153]
+                - img [ref=e155]
+                - img [ref=e157]
+                - img [ref=e159]
+                - img [ref=e161]
+              - generic [ref=e163]: 4.7 · 309
+        - generic [ref=e165] [cursor=pointer]:
+          - generic [ref=e166]:
+            - img "Wireless desk lamp" [ref=e168]
+            - button "Favorite" [ref=e169]:
+              - img [ref=e170]
+            - generic [ref=e172]: Trending
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - generic [ref=e176]: Lumen Studio
+                - generic [ref=e177]: Wireless desk lamp
+              - generic [ref=e178]: KD 128
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - img [ref=e181]
+                - img [ref=e183]
+                - img [ref=e185]
+                - img [ref=e187]
+                - img [ref=e189]
+              - generic [ref=e191]: 4.6 · 87
+    - generic [ref=e196]:
+      - generic [ref=e197]: Why Bazaratty
+      - heading "A marketplace that feels like a great street of independent shops." [level=2] [ref=e198]
+      - paragraph [ref=e199]: We built Bazaratty for the makers who care — about materials, packaging, the customer note in the box. No big-box noise. Just real craft, beautifully presented, fairly priced.
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - text: "01"
+          - generic [ref=e202]: Independent first
+          - paragraph [ref=e203]: Every seller is a real, owner-operated business. We highlight makers, not warehouses.
+        - generic [ref=e204]:
+          - text: "02"
+          - generic [ref=e205]: Transparent pricing
+          - paragraph [ref=e206]: Flat 6% commission. No tier games, no hidden upsells. Pay only when you sell.
+        - generic [ref=e207]:
+          - text: "03"
+          - generic [ref=e208]: Long-term trust
+          - paragraph [ref=e209]: Buyer protection on every order. Real humans on support.
+        - generic [ref=e210]:
+          - text: "04"
+          - generic [ref=e211]: Fast payouts
+          - paragraph [ref=e212]: Money in your account within 2 business days, every time.
+    - generic [ref=e213]:
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - generic [ref=e217]: Browse by department
+          - heading "Eight worlds, one marketplace." [level=2] [ref=e218]
+        - button "All categories" [ref=e219] [cursor=pointer]:
+          - text: All categories
+          - img [ref=e220]
+      - generic [ref=e222]:
+        - button "Home & Living 1,284 items" [ref=e224] [cursor=pointer]:
+          - generic [ref=e226]:
+            - generic [ref=e227]: Home & Living
+            - generic [ref=e228]: 1,284 items
+        - button "Fashion 942 items" [ref=e230] [cursor=pointer]:
+          - generic [ref=e232]:
+            - generic [ref=e233]: Fashion
+            - generic [ref=e234]: 942 items
+        - button "Tech & Gadgets 617 items" [ref=e236] [cursor=pointer]:
+          - generic [ref=e238]:
+            - generic [ref=e239]: Tech & Gadgets
+            - generic [ref=e240]: 617 items
+        - button "Beauty 410 items" [ref=e242] [cursor=pointer]:
+          - generic [ref=e244]:
+            - generic [ref=e245]: Beauty
+            - generic [ref=e246]: 410 items
+        - button "Kids 329 items" [ref=e248] [cursor=pointer]:
+          - generic [ref=e250]:
+            - generic [ref=e251]: Kids
+            - generic [ref=e252]: 329 items
+        - button "Sports 287 items" [ref=e254] [cursor=pointer]:
+          - generic [ref=e256]:
+            - generic [ref=e257]: Sports
+            - generic [ref=e258]: 287 items
+    - generic [ref=e259]:
+      - generic [ref=e261]:
+        - generic [ref=e262]: For sellers
+        - heading "A storefront, an inbox, and the numbers that matter." [level=2] [ref=e264]
+        - paragraph [ref=e265]: Open your store in minutes. Manage orders, track revenue, and grow — without wrestling spreadsheets.
+      - generic [ref=e269]:
+        - generic [ref=e270]:
+          - generic [ref=e271]:
+            - generic [ref=e272]:
+              - generic [ref=e273]: "142"
+              - generic [ref=e274]: Independent sellers
+              - generic [ref=e275]: +9 this week
+            - generic [ref=e276]:
+              - generic [ref=e277]: KD 284k
+              - generic [ref=e278]: Monthly GMV
+              - generic [ref=e279]: +18% this month
+            - generic [ref=e280]:
+              - generic [ref=e281]: "4.9"
+              - generic [ref=e282]: Avg seller rating
+              - generic [ref=e283]: 1,200+ reviews
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - generic [ref=e286]: Revenue trend · last 14 days
+              - generic [ref=e287]: +18%
+            - img [ref=e288]
+        - generic [ref=e291]:
+          - img "Seller storefront" [ref=e293]
+          - generic [ref=e294]:
+            - generic [ref=e295]: Open your store in minutes. Get paid in 2 days.
+            - button "Start selling" [ref=e296] [cursor=pointer]:
+              - text: Start selling
+              - img [ref=e297]
+    - generic [ref=e299]:
+      - generic [ref=e300]:
+        - generic [ref=e301]: Sellers, in their words
+        - heading "Stories from the first hundred." [level=2] [ref=e302]
+      - generic [ref=e303]:
+        - generic [ref=e305]:
+          - text: "\""
+          - paragraph [ref=e306]: Listed our shelves on Tuesday, sold the first set Wednesday morning. The dashboard just makes sense.
+          - generic [ref=e309]:
+            - generic [ref=e310]: Eli K.
+            - generic [ref=e311]: Maple & Oak
+        - generic [ref=e313]:
+          - text: "\""
+          - paragraph [ref=e314]: Payouts arrived in two days, on the dot. We migrated our whole catalog over the weekend.
+          - generic [ref=e317]:
+            - generic [ref=e318]: Marisol P.
+            - generic [ref=e319]: Verde Apothecary
+        - generic [ref=e321]:
+          - text: "\""
+          - paragraph [ref=e322]: The product page templates are gorgeous out of the box. We barely had to edit anything.
+          - generic [ref=e325]:
+            - generic [ref=e326]: Devraj S.
+            - generic [ref=e327]: Brewhaus
+    - generic [ref=e331]:
+      - generic [ref=e332]: Ready when you are
+      - heading "Open your store. Make something good." [level=2] [ref=e333]
+      - paragraph [ref=e334]: Join the first 100 sellers and lock in launch pricing — forever.
+      - generic [ref=e335]:
+        - button "Become a seller" [ref=e336] [cursor=pointer]:
+          - text: Become a seller
+          - img [ref=e337]
+        - button "See pricing" [ref=e339] [cursor=pointer]
+    - contentinfo [ref=e340]:
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - generic [ref=e343]:
+            - img "Bazaratty" [ref=e344]
+            - generic [ref=e345]: Bazaratty
+          - paragraph [ref=e346]: A modern marketplace for independent sellers and curious buyers.
+        - generic [ref=e347]:
+          - generic [ref=e348]: Marketplace
+          - generic [ref=e349]:
+            - generic [ref=e350]: Browse
+            - generic [ref=e351]: Categories
+            - generic [ref=e352]: Featured
+            - generic [ref=e353]: New arrivals
+        - generic [ref=e354]:
+          - generic [ref=e355]: Sellers
+          - generic [ref=e356]:
+            - generic [ref=e357]: Open a store
+            - generic [ref=e358]: Pricing
+            - generic [ref=e359]: Seller stories
+            - generic [ref=e360]: Help center
+        - generic [ref=e361]:
+          - generic [ref=e362]: Company
+          - generic [ref=e363]:
+            - generic [ref=e364]: About
+            - generic [ref=e365]: Careers
+            - generic [ref=e366]: Press
+            - generic [ref=e367]: Contact
+        - generic [ref=e368]:
+          - generic [ref=e369]: Legal
+          - generic [ref=e370]:
+            - generic [ref=e371]: Terms
+            - generic [ref=e372]: Privacy
+            - generic [ref=e373]: Buyer protection
+            - generic [ref=e374]: Cookies
+      - generic [ref=e375]:
+        - generic [ref=e376]: © 2026 Bazaratty, Inc.
+        - generic [ref=e377]:
+          - generic [ref=e378]: English
+          - generic [ref=e379]: Privacy
+          - generic [ref=e380]: Terms
+  - button "Screens" [ref=e382] [cursor=pointer]:
+    - img [ref=e383]
+    - text: Screens
